@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday 🤍</title>
+
+    <!-- Menghubungkan ke CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HALAMAN 1 -->
+    <div class="halaman aktif" id="hal1">
+        <h1>🎉 Selamat Ulang Tahun 🎉</h1>
+        <p>Kamu inget ga hari ini hari apa? 🤍</p>
+        <button onclick="bukaHalaman(2)">Lanjut</button>
+    </div>
+
+    <!-- HALAMAN 2 -->
+    <div class="halaman" id="hal2">
+        <h1>Untuk Kamu ✨</h1>
+        <h1>🎂 happy special day yeah 🤍</h1>
+        <p>
+            happy birthday bbe 🤍<br><br>
+            Walaupun kita sudah jarang bertemu dan sibuk dengan jalan masing-masing,
+            aku bersyukur banget karena kita nggak pernah benar-benar lost contact.
+            Itu artinya, persahabatan kita bukan cuma soal sering ketemu,
+            tapi soal hati yang tetap terhubung.
+            <br><br>
+            Di usia barumu ini, aku berdoa semoga kamu selalu sehat, bahagia,
+            dan dikelilingi orang-orang baik.
+            Semoga setiap langkahmu dimudahkan, rezekimu dilancarkan,
+            dan semua mimpi yang kamu kejar bisa tercapai satu per satu.
+            <br><br>
+            Terima kasih sudah tetap menjadi teman yang sama hangatnya seperti dulu.
+            Semoga jarak dan waktu nggak pernah mengubah apa pun di antara kita. 🤍✨
+        </p>
+
+    
+        <img src="elis.jpeg" alt="Foto Elis">
+
+        <br>
+        <button onclick="bukaHalaman(3)">Lanjut</button>
+    </div>
+
+    <!-- HALAMAN 3 -->
+    <div class="halaman" id="hal3">
+        <h1>Kenangan Kita 📸</h1>
+        
+        <div class="galeri">
+            <img src="kenangan1.jpeg">
+            <img src="kenangan2.jpeg">
+            <img src="kenangan3.jpeg">
+        </div>
+
+        
+        <br>
+        <button onclick="bukaHalaman(4)">Lanjut</button>
+    </div>
+
+    <!-- HALAMAN 4 -->
+    <div class="halaman" id="hal4">
+        <h1>Pesan Spesial 💖</h1>
+        <p id="randomText">Klik tombol di bawah 🤍</p>
+
+        <button onclick="randomPesan()">Klik Random</button>
+        <br><br>
+        <button onclick="bukaHalaman(1)">Kembali ke awal</button>
+    </div>
+
+    <!-- Menghubungkan ke JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

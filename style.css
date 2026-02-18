@@ -1,0 +1,59 @@
+/* Mengatur seluruh halaman */
+body{
+    margin:0;
+    font-family:"Times New Roman", Times, serif;
+    text-align:center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color:white;
+}
+
+/* Setiap halaman */
+.halaman{
+    display:none;
+    height:100vh;
+    padding:80px 20px;
+}
+
+/* Halaman aktif */
+.aktif{
+    display:block;
+}
+
+/* Tombol */
+button{
+    padding:10px 20px;
+    font-family:"Times New Roman", Times, serif;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+/* Foto */
+img{
+    width:200px;
+    border-radius:15px;
+    margin:10px;
+}
+
+/* Galeri */
+.galeri{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.emoji-container{
+    margin-top:20px;
+}
+
+.emoji{
+    font-size:50px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.emoji:hover{
+    transform:scale(1.3);
+}
